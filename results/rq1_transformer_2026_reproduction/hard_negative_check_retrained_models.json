@@ -1,0 +1,91 @@
+{
+ "clean_seed0": {
+  "label": "Retraining, seed 0 (8,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0002450294035284234,
+  "train negatives removed by RENN (never seen)": 0.375,
+  "  of which hard by the one-shot rule": 0.6207892204042348,
+  "test negatives, hard (never seen)": 0.4645669291338583,
+  "test negatives, other (never seen)": 0.0013775911834164262,
+  "n hard test negatives seen / unseen": "0 / 381"
+ },
+ "clean_seed1": {
+  "label": "Retraining, seed 1 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0010151218146177542,
+  "train negatives removed by RENN (never seen)": 0.3540772532188841,
+  "  of which hard by the one-shot rule": 0.5784408084696824,
+  "test negatives, hard (never seen)": 0.46981627296587924,
+  "test negatives, other (never seen)": 0.0018367882445552348,
+  "n hard test negatives seen / unseen": "0 / 381"
+ },
+ "clean_seed2": {
+  "label": "Retraining, seed 2 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.00042005040604872583,
+  "train negatives removed by RENN (never seen)": 0.35032188841201717,
+  "  of which hard by the one-shot rule": 0.5851780558229066,
+  "test negatives, hard (never seen)": 0.4645669291338583,
+  "test negatives, other (never seen)": 0.0012463920230910523,
+  "n hard test negatives seen / unseen": "0 / 381"
+ },
+ "clean_seed3": {
+  "label": "Retraining, seed 3 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0006825819098291795,
+  "train negatives removed by RENN (never seen)": 0.37875536480686695,
+  "  of which hard by the one-shot rule": 0.6304138594802695,
+  "test negatives, hard (never seen)": 0.46981627296587924,
+  "test negatives, other (never seen)": 0.0017711886643925479,
+  "n hard test negatives seen / unseen": "0 / 381"
+ },
+ "clean_seed4": {
+  "label": "Retraining, seed 4 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0011901428171380566,
+  "train negatives removed by RENN (never seen)": 0.3959227467811159,
+  "  of which hard by the one-shot rule": 0.6496631376323387,
+  "test negatives, hard (never seen)": 0.49868766404199477,
+  "test negatives, other (never seen)": 0.0022303857255313564,
+  "n hard test negatives seen / unseen": "0 / 381"
+ },
+ "half_test_rows_in_training_seed0": {
+  "label": "Half of the test rows in training, seed 0 (8,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.00022752730327639317,
+  "train negatives removed by RENN (never seen)": 0.2655579399141631,
+  "  of which hard by the one-shot rule": 0.4542829643888354,
+  "test negatives, hard, seen": 0.02857142857142857,
+  "test negatives, hard, unseen": 0.34502923976608185,
+  "test negatives, other, seen": 0.00013154433043935807,
+  "test negatives, other, unseen": 0.0007851347814708192,
+  "n hard test negatives seen / unseen": "210 / 171"
+ },
+ "half_test_rows_in_training_seed1": {
+  "label": "Half of the test rows in training, seed 1 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0008576029123494819,
+  "train negatives removed by RENN (never seen)": 0.2875536480686695,
+  "  of which hard by the one-shot rule": 0.4821944177093359,
+  "test negatives, hard, seen": 0.07253886010362694,
+  "test negatives, hard, unseen": 0.4308510638297872,
+  "test negatives, other, seen": 0.00013123359580052493,
+  "test negatives, other, unseen": 0.001049317943336831,
+  "n hard test negatives seen / unseen": "193 / 188"
+ },
+ "half_test_rows_in_training_seed2": {
+  "label": "Half of the test rows in training, seed 2 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.0004900588070568468,
+  "train negatives removed by RENN (never seen)": 0.2752145922746781,
+  "  of which hard by the one-shot rule": 0.47449470644850816,
+  "test negatives, hard, seen": 0.12637362637362637,
+  "test negatives, hard, unseen": 0.39195979899497485,
+  "test negatives, other, seen": 0.0001310615989515072,
+  "test negatives, other, unseen": 0.0005253480430785396,
+  "n hard test negatives seen / unseen": "182 / 199"
+ },
+ "all_test_rows_in_training_seed0": {
+  "label": "All test rows in training, seed 0 (1,000 epochs)",
+  "train negatives kept by RENN (trained on)": 0.00045505460655278633,
+  "train negatives removed by RENN (never seen)": 0.22210300429184548,
+  "  of which hard by the one-shot rule": 0.37439846005774785,
+  "test negatives, hard, seen": 0.049868766404199474,
+  "test negatives, hard, unseen": NaN,
+  "test negatives, other, seen": 0.0,
+  "test negatives, other, unseen": NaN,
+  "n hard test negatives seen / unseen": "381 / 0"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "train": {
+  "cost_at_0.5": 15130,
+  "fn": 16,
+  "fp": 713
+ },
+ "test": {
+  "cost_at_0.5": 17980,
+  "fn": 32,
+  "fp": 198
+ },
+ "epochs_run": 8000,
+ "test_best_ckpt": {
+  "epoch": 7379,
+  "cost_at_0.5": 19920,
+  "fn": 36,
+  "fp": 192
+ }
+}

@@ -1,0 +1,30 @@
+n dropped 28 remaining 142
+cols >80% missing 2 cols >10% 28
+max abs value in train 6351872864.0
+[IterativeImputer] Completing matrix with shape (60000, 142)
+[IterativeImputer] Ending imputation round 1/5, elapsed time 182.43
+[IterativeImputer] Change: 141186226094.93326, scaled tolerance: 6351872.864 
+[IterativeImputer] Ending imputation round 2/5, elapsed time 384.73
+[IterativeImputer] Change: 104892776272.36472, scaled tolerance: 6351872.864 
+[IterativeImputer] Ending imputation round 3/5, elapsed time 560.01
+[IterativeImputer] Change: 21478540117.481033, scaled tolerance: 6351872.864 
+[IterativeImputer] Ending imputation round 4/5, elapsed time 733.59
+[IterativeImputer] Change: 10044950751.178474, scaled tolerance: 6351872.864 
+[IterativeImputer] Ending imputation round 5/5, elapsed time 870.06
+[IterativeImputer] Change: 7592778414.375862, scaled tolerance: 6351872.864 
+/usr/local/lib/python3.13/site-packages/sklearn/impute/_iterative.py:895: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+imputer fit secs 870.5471663475037 n_iter_ 5
+[IterativeImputer] Completing matrix with shape (60000, 142)
+[IterativeImputer] Ending imputation round 1/5, elapsed time 1.31
+[IterativeImputer] Ending imputation round 2/5, elapsed time 2.51
+[IterativeImputer] Ending imputation round 3/5, elapsed time 3.58
+[IterativeImputer] Ending imputation round 4/5, elapsed time 4.67
+[IterativeImputer] Ending imputation round 5/5, elapsed time 5.82
+[IterativeImputer] Completing matrix with shape (16000, 142)
+[IterativeImputer] Ending imputation round 1/5, elapsed time 0.46
+[IterativeImputer] Ending imputation round 2/5, elapsed time 0.78
+[IterativeImputer] Ending imputation round 3/5, elapsed time 1.09
+[IterativeImputer] Ending imputation round 4/5, elapsed time 1.37
+[IterativeImputer] Ending imputation round 5/5, elapsed time 1.67
+done 886.4741778373718

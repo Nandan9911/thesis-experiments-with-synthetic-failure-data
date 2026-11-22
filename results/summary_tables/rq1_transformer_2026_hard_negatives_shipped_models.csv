@@ -1,0 +1,9 @@
+group,source_file,source_key,rows,shipped_transformers,lightgbm_tuned,xgboost_fixed_settings,ensemble_without_missingness_indicators
+Training negatives kept by RENN (in the published training table),hard_negative_check.json,train negatives kept by RENN (seen),57136,0.0002800336040324839,0.010116213945673481,0.012724026883225987,0.014999299915989918
+Training negatives removed by RENN (not in it),hard_negative_check.json,train negatives removed by RENN (never seen),1864,0.21405579399141628,0.42972103004291845,0.5552575107296137,0.5638412017167382
+of which hard by the one-shot rule,hard_negative_check_followup.json,"train neg, hard by the one-shot rule, removed by RENN (never seen)",1039,0.36612127045235804,0.6352261790182868,0.7786333012512031,0.7795957651588066
+Training negatives hard by the one-shot rule but kept by RENN,hard_negative_check_followup.json,"train neg, hard by the one-shot rule, kept by RENN (seen)",387,0.022222222222222223,0.36175710594315247,0.4625322997416021,0.4754521963824289
+Test negatives hard by the one-shot rule,hard_negative_check.json,"test negatives, hard (never seen)",381,0.008923884514435695,0.6115485564304461,0.6981627296587927,0.7217847769028871
+Other test negatives,hard_negative_check.json,"test negatives, rest",15244,3.935974809761218e-05,0.011086329047494096,0.011939123589609026,0.01489110469692994
+Training positives,hard_negative_check.json,train positives,1000,0.9822000000000001,0.961,0.968,0.972
+Test positives,hard_negative_check.json,test positives,375,0.9818666666666666,0.9733333333333334,0.9786666666666667,0.9866666666666667

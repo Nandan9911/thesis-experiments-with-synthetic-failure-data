@@ -1,0 +1,9 @@
+{
+ "engine": "unmasking_trees",
+ "probabilities": {
+  "true record": 0.9999849687425798,
+  "partial record (NaNs as given)": 0.9941148113616842,
+  "completed under the failure hypothesis": 0.9999997052560776,
+  "completed under the healthy hypothesis": 0.9996770772253
+ }
+}

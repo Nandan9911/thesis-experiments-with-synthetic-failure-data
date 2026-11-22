@@ -1,0 +1,24 @@
+# Packages that cloud_runs/setup_environment.sh installs on a Colab runtime, on top of what the image provides
+# (in November 2026: Python 3.13, PyTorch 2.14.1 with CUDA 13, TensorFlow 2.21 with tf_keras). Only lower bounds are
+# given, and pip keeps a package of the image whenever its version satisfies the bound, so the sessions ran with the
+# versions current on Colab at the time; the exact versions of the CPU machine are in requirements.txt at the
+# repository root. After this file the script installs, in two more pip calls, ctgan copulas be-great peft utrees
+# and then focal-loss scikit-plot.
+lightgbm>=4.5
+xgboost>=2.1
+catboost>=1.2
+imbalanced-learn>=0.13
+optuna>=3.6
+scikit-learn>=1.5
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.8
+joblib>=1.4
+torch>=2.4
+ForestDiffusion>=1.0.6
+tabicl>=2.2
+tabpfn==2.1.3
+tabebm>=2025.8.19
+tf-keras
+tensorflow>=2.16

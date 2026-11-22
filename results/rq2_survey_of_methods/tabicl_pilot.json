@@ -1,0 +1,59 @@
+{
+ "seed": 11,
+ "healthy_rows_per_context": 2500,
+ "n_estimators": 1,
+ "folds": {
+  "0": {
+   "n_val": 12000,
+   "seconds": 1291.862711429596,
+   "tabicl": {
+    "fold_opt_cost": 7000,
+    "fn": 6,
+    "fp": 400,
+    "threshold": 0.17240859913080947,
+    "auc": 0.9863046610169491,
+    "ap": 0.8539071691233783,
+    "min_fp_at_fn2": 3738,
+    "min_fp_at_fn5": 1659,
+    "min_fp_at_fn10": 302
+   },
+   "lightgbm_tuned_same_rows": {
+    "fold_opt_cost": 7480,
+    "fn": 10,
+    "fp": 248,
+    "threshold": 4.140312089083847e-05,
+    "auc": 0.9851953389830508,
+    "ap": 0.8903885075178185,
+    "min_fp_at_fn2": 5922,
+    "min_fp_at_fn5": 3123,
+    "min_fp_at_fn10": 248
+   }
+  },
+  "1": {
+   "n_val": 12000,
+   "seconds": 1335.1449847221375,
+   "tabicl": {
+    "fold_opt_cost": 6580,
+    "fn": 6,
+    "fp": 358,
+    "threshold": 0.23480276945233347,
+    "auc": 0.9946949152542374,
+    "ap": 0.8435724496482642,
+    "min_fp_at_fn2": 936,
+    "min_fp_at_fn5": 549,
+    "min_fp_at_fn10": 272
+   },
+   "lightgbm_tuned_same_rows": {
+    "fold_opt_cost": 7180,
+    "fn": 8,
+    "fp": 318,
+    "threshold": 2.682262656114852e-05,
+    "auc": 0.9917478813559323,
+    "ap": 0.905329414552363,
+    "min_fp_at_fn2": 2562,
+    "min_fp_at_fn5": 627,
+    "min_fp_at_fn10": 260
+   }
+  }
+ }
+}

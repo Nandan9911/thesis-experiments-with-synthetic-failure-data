@@ -1,0 +1,2 @@
+    TabEBM: 100 rows in 390s (sgld_steps=3)
+RESULT ctx=300 steps=3 n=100: 392s; peak RSS 4286 MB; nan frac 0.168; median col-mean ratio syn/real 0.887; shape (100, 169)

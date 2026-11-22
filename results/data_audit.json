@@ -1,0 +1,22 @@
+{
+  "train_sha256": "bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da",
+  "test_sha256": "2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3",
+  "train_rows": 60000,
+  "train_pos": 1000,
+  "test_rows": 16000,
+  "test_pos": 375,
+  "n_features": 170,
+  "features_identical": true,
+  "train_missing_cells_frac": 0.08333480392156863,
+  "test_missing_cells_frac": 0.0840735294117647,
+  "features_over_50pct_missing": 8,
+  "features_over_70pct_missing": 7,
+  "pos_row_missing_frac": 0.17148823529411764,
+  "neg_row_missing_frac": 0.0818406779661017,
+  "constant_features": [
+    "cd_000"
+  ],
+  "duplicate_rows_train_test": 0,
+  "cost_check_all_neg": 187500,
+  "cost_check_all_pos": 156250
+}

@@ -1,0 +1,14 @@
+# Minimal set: data loading, the evaluation protocol, the tree learners, the cGAN of Ranasinghe et al. (PyTorch), the SMOTE family,
+# the hyperparameter search and the analysis scripts. Exact versions used for the thesis (Python 3.13.18).
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.6.1
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+imbalanced-learn==0.14.2
+optuna==5.0.0
+matplotlib==3.11.2
+joblib==1.6.0
+torch==2.15.0

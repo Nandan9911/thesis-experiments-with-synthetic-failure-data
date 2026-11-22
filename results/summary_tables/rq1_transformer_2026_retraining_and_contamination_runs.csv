@@ -1,0 +1,12 @@
+run,kind,epochs,test_cost_at_1000_epochs,test_fn_at_1000_epochs,test_fp_at_1000_epochs,last_trace_epoch,test_cost_at_last_epoch,test_fn_at_last_epoch,test_fp_at_last_epoch,final_evaluation_epochs,final_evaluation_test_cost,final_evaluation_test_fn,final_evaluation_test_fp,best_checkpoint_test_cost,best_checkpoint_epoch,final_evaluation_train_cost,seen_test_rows,seen_test_cost_at_last_epoch,seen_test_fn_at_last_epoch,seen_test_fp_at_last_epoch,unseen_test_rows,unseen_test_cost_at_last_epoch,unseen_test_fn_at_last_epoch,unseen_test_fp_at_last_epoch
+clean_seed0,no test rows in training,8000,18120.0,32.0,212.0,8000,17980,32,198,8000,17980,32,198,19920,7379,15130,,,,,,,,
+clean_seed1,no test rows in training,5950,18570.0,33.0,207.0,5950,19990,36,199,1000,18570,33,207,17230,730,20680,,,,,,,,
+clean_seed2,no test rows in training,1000,18460.0,33.0,196.0,1000,18460,33,196,1000,18460,33,196,18120,902,21270,,,,,,,,
+clean_seed3,no test rows in training,1000,17060.0,30.0,206.0,1000,17060,30,206,1000,17060,30,206,19800,888,18950,,,,,,,,
+clean_seed4,no test rows in training,1000,18240.0,32.0,224.0,1000,18240,32,224,1000,18240,32,224,17210,642,18560,,,,,,,,
+half_test_rows_in_training_seed0,half of the test rows in training,8000,18270.0,35.0,77.0,8000,15220,29,72,8000,15220,29,72,14710,6010,14580,8000.0,3070.0,6.0,7.0,8000.0,12150.0,23.0,65.0
+half_test_rows_in_training_seed1,half of the test rows in training,1000,13040.0,24.0,104.0,1000,13040,24,104,1000,13040,24,104,13060,971,17350,8000.0,2650.0,5.0,15.0,8000.0,10390.0,19.0,89.0
+half_test_rows_in_training_seed2,half of the test rows in training,1000,13560.0,25.0,106.0,1000,13560,25,106,1000,13560,25,106,13200,899,22410,8000.0,1740.0,3.0,24.0,8000.0,11820.0,22.0,82.0
+all_test_rows_in_training_seed0,all test rows in training,1000,10190.0,20.0,19.0,1000,10190,20,19,1000,10190,20,19,8040,875,20900,16000.0,10190.0,20.0,19.0,0.0,0.0,0.0,0.0
+clean_seed0_verification,verification rerun,300,,,,300,16400,28,240,300,16400,28,240,14980,232,24680,,,,,,,,
+half_test_rows_in_training_seed0_verification,verification rerun,300,,,,300,17810,33,131,300,17810,33,131,14640,263,29370,8000.0,6460.0,12.0,46.0,8000.0,11350.0,21.0,85.0

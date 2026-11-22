@@ -1,0 +1,7 @@
+[01:57:23] START (i) exact tables, scaler on train_imputed
+[02:44:54] END (i) (exit 0)
+[02:44:58] START (ii) 5-round tables: SVM-SMOTE + RENN
+[02:53:24] END (ii) resampling (exit 0)
+[02:53:24] START (ii) 5-round tables, scaler on resampled
+[03:34:12] END (ii) (exit 0)
+[03:34:12] ATTRIB DONE

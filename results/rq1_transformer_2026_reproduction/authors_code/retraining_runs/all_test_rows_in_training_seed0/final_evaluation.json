@@ -1,0 +1,55 @@
+{
+ "train": {
+  "cost_at_0.5": 20900,
+  "fn": 33,
+  "fp": 440
+ },
+ "test": {
+  "cost_at_0.5": 10190,
+  "fn": 20,
+  "fp": 19
+ },
+ "epochs_run": 1000,
+ "contamination": {
+  "frac": 1.0,
+  "n_included": 16000,
+  "included_test_rows": {
+   "n": 16000,
+   "fn": 20,
+   "fp": 19,
+   "fn_rate": 0.05333333333333334,
+   "fp_rate": 0.001216,
+   "cost_at_0.5": 10190
+  },
+  "excluded_test_rows": {
+   "n": 0,
+   "fn": 0,
+   "fp": 0,
+   "fn_rate": 0.0,
+   "fp_rate": 0.0,
+   "cost_at_0.5": 0
+  }
+ },
+ "test_best_ckpt": {
+  "epoch": 875,
+  "cost_at_0.5": 8040,
+  "fn": 15,
+  "fp": 54,
+  "included_test_rows": {
+   "n": 16000,
+   "fn": 15,
+   "fp": 54,
+   "fn_rate": 0.04,
+   "fp_rate": 0.003456,
+   "cost_at_0.5": 8040
+  },
+  "excluded_test_rows": {
+   "n": 0,
+   "fn": 0,
+   "fp": 0,
+   "fn_rate": 0.0,
+   "fp_rate": 0.0,
+   "cost_at_0.5": 0
+  }
+ }
+}

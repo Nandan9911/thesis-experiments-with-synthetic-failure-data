@@ -1,0 +1,33 @@
+# Console output of the prototype demonstration reported in the thesis, run on an L4 GPU on 11 November 2026.
+# It was made before the code was reorganised for publication, when the script was complete_cli.py and the
+# engine was called "utrees"; the equivalent command today is
+#
+#   python -m experiments.rq3_completion_and_cold_start.complete_failure_record --engine unmasking_trees \
+#       --demo-index 7 --hidden-fraction 0.5 --both-hypotheses --healthy-rows 1000 --attributes-to-show 12 \
+#       --override '{"xgboost_kwargs": {"device": "cuda"}}'
+#
+# Library warnings and progress bars are left out; otherwise the output is as printed.
+record: 61 of 170 attributes observed
+failure-hypothesis completion (utrees, fitted on 999 failures) in 2157s
+healthy-hypothesis completion (fitted on 1000 healthy rows) in 2250s
+tuned LightGBM failure model fitted in 27s
+attribute  observed       true  failure: point  failure: 80% low  failure: 80% high  healthy: point
+   ag_005       NaN 16,418,686      17,085,436        14,528,512         19,339,462      15,879,244
+   ag_007       NaN    370,400         359,054           231,763            518,061       4,049,342
+   ag_009       NaN          0               0                 0                  0             649
+   aj_000       NaN          0               0                 0                  0               0
+   al_000       NaN  4,115,140       3,339,992         2,959,206          5,981,816       1,470,452
+     am_0       NaN  6,289,860       5,491,062         4,448,542          8,813,693       2,018,415
+   aq_000       NaN  4,396,396       4,868,921         4,166,152          5,254,594       4,342,280
+   ay_000       NaN          0               0                 0                  0               0
+   ay_003       NaN          0               0                 0                  0               0
+   ay_004       NaN          0               0                 0                  0               0
+   ay_007       NaN 32,339,732      20,065,762        15,830,379         23,493,038      22,219,270
+   ay_009       NaN          0               0                 0             50,837               0
+failure probability from the tuned LightGBM:
+  true record                                    0.99998
+  partial record (NaNs as given)                 0.99411
+  completed under the failure hypothesis         1.00000
+  completed under the healthy hypothesis         0.99968
+hidden cells: 58; mean absolute error in log space 0.558;
+  true value inside the 80% interval for 57% of them

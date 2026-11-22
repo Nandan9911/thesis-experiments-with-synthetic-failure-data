@@ -1,0 +1,35 @@
+{
+ "lightgbm_tuned": {
+  "threshold": 4.608037397037962e-05,
+  "train neg kept by RENN": 0.010116213945673481,
+  "train neg removed by RENN": 0.42972103004291845,
+  "train neg hard, removed": 0.6352261790182868,
+  "train neg hard, kept": 0.36175710594315247,
+  "test neg hard": 0.6115485564304461,
+  "test neg rest": 0.011086329047494096,
+  "train pos": 0.961,
+  "test pos": 0.9733333333333334
+ },
+ "xgboost_fixed_settings": {
+  "threshold": 0.004572510583559051,
+  "train neg kept by RENN": 0.012724026883225987,
+  "train neg removed by RENN": 0.5552575107296137,
+  "train neg hard, removed": 0.7786333012512031,
+  "train neg hard, kept": 0.4625322997416021,
+  "test neg hard": 0.6981627296587927,
+  "test neg rest": 0.011939123589609026,
+  "train pos": 0.968,
+  "test pos": 0.9786666666666667
+ },
+ "ensemble_without_missingness_indicators": {
+  "threshold": 0.0006649687403751845,
+  "train neg kept by RENN": 0.014999299915989918,
+  "train neg removed by RENN": 0.5638412017167382,
+  "train neg hard, removed": 0.7795957651588066,
+  "train neg hard, kept": 0.4754521963824289,
+  "test neg hard": 0.7217847769028871,
+  "test neg rest": 0.01489110469692994,
+  "train pos": 0.972,
+  "test pos": 0.9866666666666667
+ }
+}

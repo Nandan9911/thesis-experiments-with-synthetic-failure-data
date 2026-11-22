@@ -1,0 +1,110 @@
+dropped 28 attributes, 142 remain
+[IterativeImputer] Completing matrix with shape (60000, 142)
+[IterativeImputer] Change: 141186226094.93326, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 104892776272.36472, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 21478540117.481033, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 10044950751.178474, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 7592778414.375862, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3985944265.9280434, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3276646850.2539625, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3278851350.254216, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3943092173.2290106, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 5224270891.416759, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 6149258110.262435, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 6734103884.766388, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 7002783320.423529, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 7013886820.878329, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 6759111880.00009, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 6310915975.951835, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 5748960556.260156, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 5132343957.77803, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 4511668485.204913, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3915482100.6576886, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 3372524034.2447996, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 2888981835.5923867, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 2446651999.2347503, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 2056355355.3316836, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1684975257.2880836, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1344251837.8689046, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1151349393.942092, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1153784814.5140674, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1144538970.2222247, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1122740453.2624834, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1091504313.5549436, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1051548155.2697828, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 1003418944.974535, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 949930314.3438718, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 893671195.2047971, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 836575478.1675726, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 779991071.2617537, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 724961422.9858711, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 672229659.4140991, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 622335893.8580693, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 575615134.3554126, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 533915999.6957374, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 546638798.3341633, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 556075352.2344501, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 562732150.1418899, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 567042968.6330961, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 569375854.3832405, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 570039112.2203143, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 569290279.5304314, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 567357663.6867613, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 564420843.969459, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 560647805.1515583, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 556168097.7082088, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 551095671.9853854, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 545545342.230123, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 539598958.4021045, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 533325615.8430445, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 526808274.02100503, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 520106475.1898798, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 513272109.8203398, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 506361129.490327, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 499433442.75850606, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 492518488.09691334, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 485688339.71145225, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 478983582.7432312, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 472488462.0066087, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 466890698.8478443, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 461123210.0235564, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 455673783.2137157, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 450973743.99719936, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 446988894.5677854, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 444625581.64406466, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 443849987.3468587, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 445508170.28380513, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 449975599.754328, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 457834734.9334303, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 463505172.63933814, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 448219450.2177799, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 426922086.32247347, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 400116588.0750431, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 377027776.70531654, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 359462811.57419014, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 345912462.10818577, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 335171746.78672767, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 326307933.7059778, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 318615644.0505405, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 311705708.1681297, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 305314858.48574704, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 299268923.03940046, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 293425228.447318, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 287708641.9669581, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 282067264.27645946, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 276467585.86310196, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 270907889.39108676, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 265364411.27537453, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 262818207.4723117, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 264589746.04835385, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 266231737.00914752, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 267720894.68890178, scaled tolerance: 6351872.864 
+[IterativeImputer] Change: 269091424.2086668, scaled tolerance: 6351872.864 
+/usr/local/lib/python3.13/site-packages/sklearn/impute/_iterative.py:895: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+[IterativeImputer] Completing matrix with shape (60000, 142)
+[IterativeImputer] Completing matrix with shape (16000, 142)
+imputer: 100 rounds in 14245s; negative cells in 74 attributes
+SVM-SMOTE: 88500 rows (29500 positive) in 18s
+RENN: 86636 rows (29500 positive) in 339s
+wrote the six input files of TrainingCode.py into Cost-Sensitive-Transformer-Model

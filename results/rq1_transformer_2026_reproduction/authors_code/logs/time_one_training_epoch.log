@@ -1,0 +1,5 @@
+2026-10-29 01:23:14.202378: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+TF threads: 0 CPUs: 2
+batch 72: 2692.7 ms/step on this 2-vCPU CPU -> 1083 steps/epoch -> est. 2916 s/epoch; params 55369
+batch 256: 11050.4 ms/step on this 2-vCPU CPU -> 305 steps/epoch -> est. 3370 s/epoch; params 55369
+TIMING_DONE

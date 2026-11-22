@@ -1,0 +1,9 @@
+variant B scaled test range: min -33.716 max 15.638; frac cells outside [0,1]: 0.00502
+2026-10-29 02:21:25.554921: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run1 / raw-range scaler: thr0.5 cost,FN,FP = (np.int64(45560), np.int64(35), np.int64(2806)) | AUC 0.89541 AP 0.1434 | secs 198
+   thr 0.0196 -> (np.int64(48260), np.int64(29), np.int64(3376))
+   thr 0.1 -> (np.int64(44850), np.int64(30), np.int64(2985))
+   thr 0.3 -> (np.int64(44620), np.int64(32), np.int64(2862))
+   thr 0.7 -> (np.int64(46010), np.int64(37), np.int64(2751))
+   positives with p<=0.5: 35 ; negatives with p>0.5: 2806 ; negatives p>0.0196: 3376

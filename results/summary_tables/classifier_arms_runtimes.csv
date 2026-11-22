@@ -1,0 +1,21 @@
+arm,label,seeds,cross_validation_minutes_median,dominant_cost
+lightgbm_tuned,"LightGBM (tuned), no augmentation",5,2.3751195867856345,LightGBM fits
+xgboost_fixed_settings,"XGBoost (fixed settings), no augmentation",3,13.874635501702626,XGBoost fits
+random_forest_fixed_settings,"Random forest, no augmentation",3,14.591503500938416,random forest fits
+sklearn_gradient_boosting,"sklearn GBM, no augmentation",3,52.85424601236979,sklearn GBM fits
+lightgbm_tuned_3_folds,"LightGBM (tuned), no augmentation, 3 folds",3,14.868558212121327,LightGBM fits
+lightgbm_with_conditional_gan_2019_rows,"cGAN +2,000 rows, LightGBM",5,18.921307945251463,cGAN training (30k steps per fold)
+random_forest_fixed_settings_with_conditional_gan_2019_rows,"cGAN +2,000 rows, random forest",3,25.55281700293223,cGAN + random forest
+sklearn_gradient_boosting_with_conditional_gan_2019_rows,"cGAN +2,000 rows, sklearn GBM",3,69.75847627321879,sklearn GBM fits
+random_forest_with_conditional_gan_2019_literal_notebook_rows,"cGAN with the notebook's settings, random forest",1,27.886784319082896,cGAN + random forest
+lightgbm_with_duplicated_real_failures,"2,000 duplicated real failures, LightGBM",5,3.0943652590115867,LightGBM fits
+lightgbm_with_forest_flow_rows_reduced_profile,"Forest-Flow +2,000 rows, LightGBM",3,349.71977832714714,"Forest-Flow fits (1,690 XGBoost models per fold)"
+lightgbm_with_tabebm_rows,"TabEBM +2,000 rows, LightGBM (GPU)",3,80.10084294875463,
+lightgbm_tuned_with_missingness_indicators,LightGBM (tuned) + missingness indicators,3,38.62083988189697,LightGBM fits
+ensemble_with_missingness_indicators,Ensemble (LightGBM + XGBoost + CatBoost) + missingness indicators,5,61.805374189217886,"CatBoost, XGBoost and LightGBM fits"
+ensemble_without_missingness_indicators,"Ensemble (LightGBM + XGBoost + CatBoost), no indicators",5,53.156135908762614,"CatBoost, XGBoost and LightGBM fits"
+tabicl_bagged_contexts,"TabICLv2, bagged contexts, no tuning",5,6.354474818706512,TabICL inference
+lightgbm_on_2026_preprocessing_full_pipeline,"Preprocessing of Beikmohammadi et al. (SVM-SMOTE and RENN), LightGBM",1,36.86409824291865,"imputer, SVM-SMOTE, RENN"
+lightgbm_on_2026_preprocessing_renn_only,"Preprocessing of Beikmohammadi et al. (RENN only), LightGBM",1,13.423923631509146,"imputer, RENN"
+lightgbm_on_2026_preprocessing_without_renn,"Preprocessing of Beikmohammadi et al. (SVM-SMOTE only), LightGBM",1,13.781238452593486,"imputer, SVM-SMOTE"
+lightgbm_on_2026_preprocessing_imputation_only,"Preprocessing of Beikmohammadi et al. (imputation only), LightGBM",1,58.060282031695046,imputer

@@ -1,0 +1,45 @@
+quantity,value
+"Released models, published preprocessing: mean test cost",3440.0
+"Released models, published preprocessing: lowest test cost of a run",3060.0
+"Released models, published preprocessing: highest test cost of a run",3540.0
+"Released models, published preprocessing: mean missed failures",6.8
+"Released models, published preprocessing: mean false alarms",4.0
+"Released model run 1 on the 60,000 training rows: cost at 0.5",12660.0
+"Released model run 1 on the 60,000 training rows: missed failures",17.0
+"Released model run 1 on the 60,000 training rows: false alarms",416.0
+Retraining runs without test rows: number of seeds,5.0
+Retraining runs without test rows: median test cost of the final evaluation,18240.0
+Retraining runs without test rows: lowest test cost of the final evaluation,17060.0
+Retraining runs without test rows: highest test cost of the final evaluation,18570.0
+Retraining runs without test rows: fewest epochs,1000.0
+Retraining runs without test rows: most epochs,8000.0
+"Retraining runs without test rows: estimated GPU hours, total",113.98579006645372
+"Retraining runs without test rows: mean test cost at 1,000 epochs",18090.0
+"Retraining runs without test rows: lowest test cost at 1,000 epochs",17060.0
+"Retraining runs without test rows: highest test cost at 1,000 epochs",18570.0
+Test-inclusion controls with half of the test rows: number of seeds,3.0
+"PyTorch port, protocol with a validation split of real rows: mean test cost, best checkpoint at 0.5",13636.666666666666
+"PyTorch port, protocol with a validation split of real rows: lowest test cost, best checkpoint at 0.5",11100.0
+"PyTorch port, protocol with a validation split of real rows: highest test cost, best checkpoint at 0.5",17270.0
+"PyTorch port, protocol with a validation split of real rows: lowest test cost at the validation threshold",11820.0
+"PyTorch port, protocol with a validation split of real rows: highest test cost at the validation threshold",16810.0
+"PyTorch port, published protocol: imputation, SVM-SMOTE, RENN: mean test cost, best checkpoint at 0.5",11825.0
+"PyTorch port, published protocol: imputation, SVM-SMOTE, RENN: lowest test cost, best checkpoint at 0.5",11230.0
+"PyTorch port, published protocol: imputation, SVM-SMOTE, RENN: highest test cost, best checkpoint at 0.5",12420.0
+"PyTorch port, published protocol: imputation, SVM-SMOTE, RENN: lowest test cost at the validation threshold",12320.0
+"PyTorch port, published protocol: imputation, SVM-SMOTE, RENN: highest test cost at the validation threshold",13170.0
+"PyTorch port, published protocol without RENN: mean test cost, best checkpoint at 0.5",16105.0
+"PyTorch port, published protocol without RENN: lowest test cost, best checkpoint at 0.5",15390.0
+"PyTorch port, published protocol without RENN: highest test cost, best checkpoint at 0.5",16820.0
+"PyTorch port, published protocol without RENN: lowest test cost at the validation threshold",18890.0
+"PyTorch port, published protocol without RENN: highest test cost at the validation threshold",22880.0
+"PyTorch port, published protocol without SVM-SMOTE: mean test cost, best checkpoint at 0.5",30275.0
+"PyTorch port, published protocol without SVM-SMOTE: lowest test cost, best checkpoint at 0.5",30210.0
+"PyTorch port, published protocol without SVM-SMOTE: highest test cost, best checkpoint at 0.5",30340.0
+"PyTorch port, published protocol without SVM-SMOTE: lowest test cost at the validation threshold",14630.0
+"PyTorch port, published protocol without SVM-SMOTE: highest test cost at the validation threshold",14970.0
+"PyTorch port, published protocol without resampling: mean test cost, best checkpoint at 0.5",36285.0
+"PyTorch port, published protocol without resampling: lowest test cost, best checkpoint at 0.5",34370.0
+"PyTorch port, published protocol without resampling: highest test cost, best checkpoint at 0.5",38200.0
+"PyTorch port, published protocol without resampling: lowest test cost at the validation threshold",13380.0
+"PyTorch port, published protocol without resampling: highest test cost at the validation threshold",15670.0

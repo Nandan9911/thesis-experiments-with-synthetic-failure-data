@@ -1,0 +1,5 @@
+Audit of the 5-round BayesianRidge IterativeImputer output used for the shipped-model re-scoring (eval_train_imputed.csv):
+attributes kept: 142
+attributes with at least one imputed value below 0 (raw minimum is 0 everywhere): 72
+attributes with at least one imputed value above the raw column maximum: 17
+rows: 60000

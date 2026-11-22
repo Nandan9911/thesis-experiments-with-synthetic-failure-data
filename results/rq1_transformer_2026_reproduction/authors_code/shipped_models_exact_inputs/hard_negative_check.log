@@ -1,0 +1,27 @@
+train (60000, 142) resampled (86636, 142) test (16000, 142)
+training negatives: 59000, kept by RENN: 57136, removed: 1864; training positives matched in the resampled table: 1000 of 1000
+test negatives: 15625, 'hard' (RENN would remove them): 381  [15s]
+training negatives the same rule calls hard: 1426 (removed by RENN: 1864)
+2026-10-30 03:36:15.873359: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run1 {'train negatives kept by RENN (seen)': 0.0003, 'train negatives removed by RENN (never seen)': 0.2135, 'test negatives, hard (never seen)': 0.0079, 'test negatives, rest': 0.0001, 'train positives': 0.983, 'test positives': 0.9813}
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run2 {'train negatives kept by RENN (seen)': 0.0003, 'train negatives removed by RENN (never seen)': 0.2119, 'test negatives, hard (never seen)': 0.0052, 'test negatives, rest': 0.0, 'train positives': 0.982, 'test positives': 0.9813}
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run3 {'train negatives kept by RENN (seen)': 0.0003, 'train negatives removed by RENN (never seen)': 0.2242, 'test negatives, hard (never seen)': 0.0131, 'test negatives, rest': 0.0001, 'train positives': 0.982, 'test positives': 0.984}
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run4 {'train negatives kept by RENN (seen)': 0.0003, 'train negatives removed by RENN (never seen)': 0.206, 'test negatives, hard (never seen)': 0.0105, 'test negatives, rest': 0.0, 'train positives': 0.983, 'test positives': 0.9813}
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+WARNING:tensorflow:Unable to restore custom metric. Please ensure that the layer implements `get_config` and `from_config` when saving. In addition, please use the `custom_objects` arg when calling `load_model()`.
+run5 {'train negatives kept by RENN (seen)': 0.0002, 'train negatives removed by RENN (never seen)': 0.2146, 'test negatives, hard (never seen)': 0.0079, 'test negatives, rest': 0.0001, 'train positives': 0.981, 'test positives': 0.9813}
+
+fraction flagged at 0.5 (mean over the five models):
+  train negatives kept by RENN (seen)              n= 57136  flagged 0.0003  mean p 0.0172
+  train negatives removed by RENN (never seen)     n=  1864  flagged 0.2141  mean p 0.2545
+  test negatives, hard (never seen)                n=   381  flagged 0.0089  mean p 0.0827
+  test negatives, rest                             n= 15244  flagged 0.0000  mean p 0.0165
+  train positives                                  n=  1000  flagged 0.9822  mean p 0.9729
+  test positives                                   n=   375  flagged 0.9819  mean p 0.9657

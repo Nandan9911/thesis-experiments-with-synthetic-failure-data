@@ -1,0 +1,21 @@
+arm,label,seed,test_cost_at_0_5,test_fn_at_0_5,test_fp_at_0_5,test_cost_at_bayes_cutoff,test_fn_at_bayes_cutoff,test_fp_at_bayes_cutoff,test_cost_at_oof_threshold,test_fn_at_oof_threshold,test_fp_at_oof_threshold,test_cost_at_plateau_threshold,test_fn_at_plateau_threshold,test_fp_at_plateau_threshold,test_oracle_minimum_cost
+lightgbm_tuned,"LightGBM (tuned), no augmentation",11,38200,76,20,21420,41,92,9020,10,402,9020,10,402,7710
+xgboost_fixed_settings,"XGBoost (fixed settings), no augmentation",11,40650,81,15,13760,23,226,8480,8,448,8440,8,444,7250
+random_forest_fixed_settings,"Random forest, no augmentation",11,56180,112,18,9980,6,698,9760,9,526,9690,9,519,9100
+sklearn_gradient_boosting,"sklearn GBM, no augmentation",11,53180,106,18,11370,16,337,11820,8,782,11680,8,768,10090
+lightgbm_tuned_3_folds,"LightGBM (tuned), no augmentation, 3 folds",11,38680,77,18,19500,37,100,9200,9,470,9280,9,478,8380
+lightgbm_with_conditional_gan_2019_rows,"cGAN +2,000 rows, LightGBM",11,35200,70,20,21420,41,92,9500,10,450,9870,10,487,9030
+random_forest_fixed_settings_with_conditional_gan_2019_rows,"cGAN +2,000 rows, random forest",11,56150,112,15,10010,6,701,9720,8,572,9720,8,572,9010
+sklearn_gradient_boosting_with_conditional_gan_2019_rows,"cGAN +2,000 rows, sklearn GBM",11,49250,98,25,12000,16,400,9730,6,673,9730,6,673,8830
+random_forest_with_conditional_gan_2019_literal_notebook_rows,"cGAN with the notebook's settings, random forest",11,54160,108,16,10080,6,708,10130,10,513,10340,10,534,9470
+lightgbm_with_duplicated_real_failures,"2,000 duplicated real failures, LightGBM",11,34720,69,22,20970,40,97,8820,8,482,9580,10,458,8730
+lightgbm_with_forest_flow_rows_reduced_profile,"Forest-Flow +2,000 rows, LightGBM",11,36200,72,20,19490,37,99,9600,10,460,9610,10,461,8790
+lightgbm_with_tabebm_rows,"TabEBM +2,000 rows, LightGBM (GPU)",11,36250,72,25,20020,38,102,9700,10,470,9740,10,474,9110
+lightgbm_tuned_with_missingness_indicators,LightGBM (tuned) + missingness indicators,11,36690,73,19,21430,41,93,8960,7,546,9270,8,527,8610
+ensemble_with_missingness_indicators,Ensemble (LightGBM + XGBoost + CatBoost) + missingness indicators,11,37160,74,16,15930,29,143,7790,7,429,8300,9,380,7540
+ensemble_without_missingness_indicators,"Ensemble (LightGBM + XGBoost + CatBoost), no indicators",11,38670,77,17,16380,30,138,7520,5,502,7440,6,444,7460
+tabicl_bagged_contexts,"TabICLv2, bagged contexts, no tuning",11,20860,40,86,9070,3,757,7320,5,482,7420,5,492,7280
+lightgbm_on_2026_preprocessing_full_pipeline,"Preprocessing of Beikmohammadi et al. (SVM-SMOTE and RENN), LightGBM",11,16310,28,231,11250,15,375,8850,6,585,8920,6,592,8670
+lightgbm_on_2026_preprocessing_renn_only,"Preprocessing of Beikmohammadi et al. (RENN only), LightGBM",11,21310,40,131,15510,26,251,9840,9,534,9320,7,582,8830
+lightgbm_on_2026_preprocessing_without_renn,"Preprocessing of Beikmohammadi et al. (SVM-SMOTE only), LightGBM",11,30970,61,47,17640,32,164,9550,9,505,10010,10,501,9560
+lightgbm_on_2026_preprocessing_imputation_only,"Preprocessing of Beikmohammadi et al. (imputation only), LightGBM",11,38200,76,20,23100,44,110,9060,7,556,9400,8,540,9020

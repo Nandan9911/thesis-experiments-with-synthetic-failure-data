@@ -1,0 +1,45 @@
+{
+ "ckpt": "transformer2026_corrected_v4ext_seed0.pt",
+ "epoch_saved": 3249,
+ "best_epoch": 825,
+ "best_val_cost": 3870.0,
+ "stopped": null,
+ "protocol": "corrected",
+ "seed": 0,
+ "test_best_ckpt": {
+  "at_0.5": {
+   "cost": 15100,
+   "tp": 350,
+   "fn": 25,
+   "fp": 260,
+   "tn": 15365,
+   "recall": 0.9333333333333333,
+   "precision": 0.5737704918032787,
+   "ci95": [
+    10499.75,
+    20250.0
+   ]
+  },
+  "at_val_threshold": {
+   "cost": 14480,
+   "tp": 352,
+   "fn": 23,
+   "fp": 298,
+   "tn": 15327,
+   "recall": 0.9386666666666666,
+   "precision": 0.5415384615384615
+  }
+ },
+ "val_threshold": 0.44085684895515437,
+ "test_last_saved_epoch": {
+  "at_0.5": {
+   "cost": 17150,
+   "tp": 345,
+   "fn": 30,
+   "fp": 215,
+   "tn": 15410,
+   "recall": 0.92,
+   "precision": 0.6160714285714286
+  }
+ }
+}

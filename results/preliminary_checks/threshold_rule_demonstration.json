@@ -1,0 +1,152 @@
+{
+ "sklearn GBM (default: 100 trees, depth 3)": {
+  "fit_seconds": 201.06115102767944,
+  "linear_0.01": {
+   "cost": 14390,
+   "tp": 355,
+   "fn": 20,
+   "fp": 439,
+   "tn": 15186,
+   "recall": 0.9466666666666667,
+   "precision": 0.44710327455919396,
+   "threshold": 0.01,
+   "val_cost": 10850
+  },
+  "all_values": {
+   "cost": 10820,
+   "tp": 367,
+   "fn": 8,
+   "fp": 682,
+   "tn": 14943,
+   "recall": 0.9786666666666667,
+   "precision": 0.34985700667302194,
+   "threshold": 0.004600427624687425,
+   "val_cost": 8670
+  },
+  "fixed_0.5": {
+   "cost": 63870,
+   "tp": 248,
+   "fn": 127,
+   "fp": 37,
+   "tn": 15588,
+   "recall": 0.6613333333333333,
+   "precision": 0.8701754385964913,
+   "threshold": 0.5
+  },
+  "bayes_0.0196": {
+   "cost": 16560,
+   "tp": 349,
+   "fn": 26,
+   "fp": 356,
+   "tn": 15269,
+   "recall": 0.9306666666666666,
+   "precision": 0.4950354609929078,
+   "threshold": 0.0196078431372549
+  },
+  "oracle": {
+   "cost": 10880,
+   "threshold": 0.00369129773502623
+  },
+  "min_fp_at_fn6": 834
+ },
+ "RF (300 trees, depth 20, balanced_subsample)": {
+  "fit_seconds": 61.96325397491455,
+  "linear_0.01": {
+   "cost": 10220,
+   "tp": 367,
+   "fn": 8,
+   "fp": 622,
+   "tn": 15003,
+   "recall": 0.9786666666666667,
+   "precision": 0.3710819009100101,
+   "threshold": 0.04,
+   "val_cost": 6740
+  },
+  "all_values": {
+   "cost": 9960,
+   "tp": 368,
+   "fn": 7,
+   "fp": 646,
+   "tn": 14979,
+   "recall": 0.9813333333333333,
+   "precision": 0.3629191321499014,
+   "threshold": 0.03666666666666667,
+   "val_cost": 6430
+  },
+  "fixed_0.5": {
+   "cost": 46820,
+   "tp": 284,
+   "fn": 91,
+   "fp": 132,
+   "tn": 15493,
+   "recall": 0.7573333333333333,
+   "precision": 0.6826923076923077,
+   "threshold": 0.5
+  },
+  "bayes_0.0196": {
+   "cost": 9420,
+   "tp": 373,
+   "fn": 2,
+   "fp": 842,
+   "tn": 14783,
+   "recall": 0.9946666666666667,
+   "precision": 0.3069958847736626,
+   "threshold": 0.0196078431372549
+  },
+  "oracle": {
+   "cost": 8990,
+   "threshold": 0.03
+  },
+  "min_fp_at_fn6": 647
+ },
+ "LightGBM (500 trees, defaults)": {
+  "fit_seconds": 7.462315082550049,
+  "linear_0.01": {
+   "cost": 28900,
+   "tp": 318,
+   "fn": 57,
+   "fp": 40,
+   "tn": 15585,
+   "recall": 0.848,
+   "precision": 0.888268156424581,
+   "threshold": 0.01,
+   "val_cost": 12860
+  },
+  "all_values": {
+   "cost": 13460,
+   "tp": 354,
+   "fn": 21,
+   "fp": 296,
+   "tn": 15329,
+   "recall": 0.944,
+   "precision": 0.5446153846153846,
+   "threshold": 6.552899369895469e-06,
+   "val_cost": 5960
+  },
+  "fixed_0.5": {
+   "cost": 45650,
+   "tp": 284,
+   "fn": 91,
+   "fp": 15,
+   "tn": 15610,
+   "recall": 0.7573333333333333,
+   "precision": 0.9498327759197325,
+   "threshold": 0.5
+  },
+  "bayes_0.0196": {
+   "cost": 30800,
+   "tp": 314,
+   "fn": 61,
+   "fp": 30,
+   "tn": 15595,
+   "recall": 0.8373333333333334,
+   "precision": 0.9127906976744186,
+   "threshold": 0.0196078431372549
+  },
+  "oracle": {
+   "cost": 10140,
+   "threshold": 4.970854283757261e-07
+  },
+  "min_fp_at_fn6": 903
+ }
+}

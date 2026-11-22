@@ -1,0 +1,19 @@
+{
+ "model": "lightgbm",
+ "best_cost_oof": 33290.0,
+ "best_params": {
+  "n_estimators": 1100,
+  "learning_rate": 0.07288200759499373,
+  "num_leaves": 51,
+  "min_child_samples": 27,
+  "subsample": 0.9862853367020464,
+  "colsample_bytree": 0.9664377940705252,
+  "reg_lambda": 0.19802944709473558,
+  "reg_alpha": 0.0010952572133775258,
+  "scale_pos_weight": 7.44232241394497
+ },
+ "n_trials": 26,
+ "seed": 11,
+ "folds": 5,
+ "n_jobs": 2
+}

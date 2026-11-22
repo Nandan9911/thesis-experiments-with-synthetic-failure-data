@@ -1,0 +1,7 @@
+    ForestFlow fit: n_t=10 K=10 trees=20 depth=5 cond=True in 1986s
+Traceback (most recent call last):
+  File "/home/claude/aps_thesis/src/pilot_forestflow.py", line 10, in <module>
+    S = g.sample(2000, seed=2)
+  File "/home/claude/aps_thesis/src/forestflow_aug.py", line 61, in sample
+    out = self.model_.generate(batch_size=n, seed=seed)
+TypeError: ForestDiffusionModel.generate() got an unexpected keyword argument 'seed'

@@ -1,0 +1,42 @@
+# Exact versions used for the experiments that ran on the CPU machine (Python 3.13.18).
+# Install with:  pip install -r requirements.txt
+# The packages are grouped by what needs them; if you only want to run the baseline, the reproduction of the cGAN of Ranasinghe et al.,
+# the classical oversamplers and the analysis, requirements-core.txt is enough.
+
+# ---- core: data, protocol, tree learners, statistics, figures (see requirements-core.txt)
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.6.1
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+imbalanced-learn==0.14.2
+optuna==5.0.0
+matplotlib==3.11.2
+joblib==1.6.0
+# the cGAN of Ranasinghe et al., TabDDPM and the PyTorch port of the cost-sensitive Transformer of Beikmohammadi et al.; the CPU build is enough on a laptop:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+
+# ---- RQ2 generators and foundation models
+copulas==0.15.0              # Gaussian copula
+ctgan==0.13.0                # TVAE and CTGAN
+ForestDiffusion==1.0.6       # Forest-Flow (also used for completion in RQ3)
+tabebm==2025.8.19            # TabEBM
+packaging==26.3              # version checks in rq2_survey_of_methods/tabular_generators.py
+tabicl==2.2.0                # TabICLv2
+tabpfn==2.1.3                # used inside TabEBM and as a completion engine in RQ3
+be-great==0.0.14             # GReaT (language-model generator)
+transformers==5.22.2
+peft==0.21.2
+accelerate==1.15.0
+tqdm==4.70.1                 # used by CTAB-GAN+ (third_party/CTAB-GAN-Plus)
+
+# ---- RQ3 completion engines
+utrees==0.3.0                # Unmasking Trees
+
+# ---- RQ1b: the authors' Keras code and trained models
+tensorflow==2.20.0
+tf-keras==2.20.1
+focal-loss==0.0.7

@@ -1,0 +1,25 @@
+variant,run,test_cost,test_fn,test_fp,test_auc,lowest_test_cost_over_eight_cutoffs,cutoff_of_lowest_test_cost,test_cost_at_bayes_cutoff,train_cost,train_fn,train_fp
+Published preprocessing,run1,3540.0,7.0,4.0,0.99938,1550.0,0.2,44710.0,12660.0,17.0,416.0
+Published preprocessing,run2,3520.0,7.0,2.0,0.9994,1990.0,0.2,81630.0,,,
+Published preprocessing,run3,3060.0,6.0,6.0,0.99919,2590.0,0.2,39450.0,,,
+Published preprocessing,run4,3540.0,7.0,4.0,0.99922,1220.0,0.2,22440.0,,,
+Published preprocessing,run5,3540.0,7.0,4.0,0.99933,2180.0,0.2,32150.0,,,
+Published preprocessing,mean,3440.0,6.8,4.0,0.9993040000000001,1906.0,,44076.0,,,
+"5-round imputer, scaler on the imputed table (first attempt)",run1,183510.0,367.0,1.0,0.7342,183510.0,0.02,183510.0,494000.0,988.0,0.0
+"5-round imputer, scaler on the imputed table (first attempt)",run2,183510.0,367.0,1.0,0.66081,183510.0,0.02,183510.0,,,
+"5-round imputer, scaler on the imputed table (first attempt)",run3,179010.0,358.0,1.0,0.77854,178010.0,0.02,178010.0,,,
+"5-round imputer, scaler on the imputed table (first attempt)",run4,184510.0,369.0,1.0,0.65666,184510.0,0.02,184510.0,,,
+"5-round imputer, scaler on the imputed table (first attempt)",run5,183510.0,367.0,1.0,0.70786,183510.0,0.02,183510.0,,,
+"5-round imputer, scaler on the imputed table (first attempt)",mean,182810.0,365.6,1.0,0.7076140000000001,182610.0,,182610.0,,,
+"100-round imputer, scaler on the imputed table",run1,136020.0,272.0,2.0,0.9569,128570.0,0.02,128570.0,368690.0,736.0,69.0
+"100-round imputer, scaler on the imputed table",run2,136520.0,273.0,2.0,0.95075,125050.0,0.02,125050.0,,,
+"100-round imputer, scaler on the imputed table",run3,140580.0,281.0,8.0,0.9368,135590.0,0.02,135590.0,,,
+"100-round imputer, scaler on the imputed table",run4,155530.0,311.0,3.0,0.94404,148040.0,0.02,148040.0,,,
+"100-round imputer, scaler on the imputed table",run5,143030.0,286.0,3.0,0.96839,129630.0,0.02,129140.0,,,
+"100-round imputer, scaler on the imputed table",mean,142336.0,284.6,3.6,0.951376,133376.0,,133278.0,,,
+"5-round imputer, scaler on the resampled table",run1,182510.0,365.0,1.0,0.7656,182510.0,0.02,182510.0,492530.0,985.0,3.0
+"5-round imputer, scaler on the resampled table",run2,182510.0,365.0,1.0,0.71506,182510.0,0.02,182510.0,,,
+"5-round imputer, scaler on the resampled table",run3,179010.0,358.0,1.0,0.77879,176510.0,0.02,176510.0,,,
+"5-round imputer, scaler on the resampled table",run4,182510.0,365.0,1.0,0.68248,182510.0,0.02,182510.0,,,
+"5-round imputer, scaler on the resampled table",run5,183010.0,366.0,1.0,0.71962,182010.0,0.02,182010.0,,,
+"5-round imputer, scaler on the resampled table",mean,181910.0,363.8,1.0,0.7323099999999999,181210.0,,181210.0,,,

@@ -1,0 +1,21 @@
+# the UCI data files are downloaded separately (see data/README.md)
+data/*.csv
+
+# external repositories, cloned by third_party/fetch_third_party_code.sh
+# (no trailing slash, so that the entries also match if the folders are symbolic links)
+third_party/cost-sensitive-transformer-model
+third_party/CTAB-GAN-Plus
+
+# intermediate files (imputed tables, fold caches); safe to delete
+cache/
+
+# outputs of quick smoke tests
+results/**/*smoke_test*
+
+# Python and notebook clutter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store

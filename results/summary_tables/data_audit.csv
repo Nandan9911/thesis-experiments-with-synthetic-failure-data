@@ -1,0 +1,19 @@
+quantity,field,value
+Training rows,train_rows,60000
+Failures among the training rows,train_pos,1000
+Test rows,test_rows,16000
+Failures among the test rows,test_pos,375
+Attributes,n_features,170
+"Same attributes, in the same order, in both files",features_identical,True
+"Share of missing cells, training file",train_missing_cells_frac,0.08333480392156863
+"Share of missing cells, test file",test_missing_cells_frac,0.0840735294117647
+Share of missing cells in failure rows (training),pos_row_missing_frac,0.17148823529411764
+Share of missing cells in healthy rows (training),neg_row_missing_frac,0.0818406779661017
+Attributes with more than 50 % missing (training),features_over_50pct_missing,8
+Attributes with more than 70 % missing (training),features_over_70pct_missing,7
+Constant attributes (training),constant_features,cd_000
+Test rows identical to a training row (values rounded to 3 decimals),duplicate_rows_train_test,0
+Test cost when nothing is flagged,cost_check_all_neg,187500
+Test cost when everything is flagged,cost_check_all_pos,156250
+SHA-256 of the training file,train_sha256,bb484302e3a3a1c8ef5e1f0129c4dc7cbd58f350867f95b575461ca21ab6b9da
+SHA-256 of the test file,test_sha256,2cdf6f7661c7b4c63333c93cdec36a3a82350176b604a2312cf82799fb2712f3

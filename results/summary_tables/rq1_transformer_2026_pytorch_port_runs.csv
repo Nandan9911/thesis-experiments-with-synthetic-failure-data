@@ -1,0 +1,13 @@
+run_name,label,seed,epochs,best_epoch,test_cost_best_checkpoint,test_fn_best_checkpoint,test_fp_best_checkpoint,test_cost_interval_low,test_cost_interval_high,test_cost_at_validation_threshold,test_fn_at_validation_threshold,test_fp_at_validation_threshold,test_cost_last_epoch,evaluated_from_checkpoint
+corrected_protocol,Protocol with a validation split of real rows,0,500,138,12540,17,404,8799.75,16920.25,13020,18,402,15880,False
+corrected_protocol,Protocol with a validation split of real rows,1,500,353,11100,15,360,7590.0,15120.499999999996,11820,17,332,10130,False
+corrected_protocol,Protocol with a validation split of real rows,2,500,6,17270,26,427,12799.75,22460.25,16810,24,481,14740,False
+corrected_protocol_extended,"Protocol with a validation split of real rows, extended (stopped)",0,3250,825,15100,25,260,10499.75,20250.0,14480,23,298,17150,True
+published_protocol,"Published protocol: imputation, SVM-SMOTE, RENN",0,500,391,11230,15,373,7639.75,15170.499999999996,12320,8,832,14320,False
+published_protocol,"Published protocol: imputation, SVM-SMOTE, RENN",1,500,476,12420,17,392,8730.0,16632.499999999985,13170,10,817,14780,False
+published_protocol_without_renn,Published protocol without RENN,0,500,213,15390,22,439,10940.0,20010.25,18890,11,1339,25640,False
+published_protocol_without_renn,Published protocol without RENN,1,500,233,16820,27,332,12160.0,22070.25,22880,9,1838,20000,False
+published_protocol_without_svm_smote,Published protocol without SVM-SMOTE,0,500,59,30210,57,171,23438.75,37750.5,14970,15,747,30040,False
+published_protocol_without_svm_smote,Published protocol without SVM-SMOTE,1,500,480,30340,58,134,23309.5,37910.25,14630,18,563,31640,False
+published_protocol_without_resampling,Published protocol without resampling,0,500,125,34370,67,87,26870.0,42250.74999999999,15670,22,467,54850,False
+published_protocol_without_resampling,Published protocol without resampling,1,500,421,38200,75,70,29689.75,46600.99999999999,13380,13,688,43510,False

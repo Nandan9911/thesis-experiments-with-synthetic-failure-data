@@ -1,0 +1,24 @@
+implementation,run,label,seed,epochs_reached,source
+authors_code,clean_seed0,Retraining,0,8000,state.json: epoch
+authors_code,clean_seed1,Retraining,1,5950,state.json: epoch
+authors_code,clean_seed2,Retraining,2,1000,state.json: epoch
+authors_code,clean_seed3,Retraining,3,1000,state.json: epoch
+authors_code,clean_seed4,Retraining,4,1000,state.json: epoch
+authors_code,half_test_rows_in_training_seed0,Half of the test rows in training,0,8000,state.json: epoch
+authors_code,half_test_rows_in_training_seed1,Half of the test rows in training,1,1000,state.json: epoch
+authors_code,half_test_rows_in_training_seed2,Half of the test rows in training,2,1000,state.json: epoch
+authors_code,all_test_rows_in_training_seed0,All test rows in training,0,1000,state.json: epoch
+authors_code,clean_seed0_verification,"Retraining, verification rerun",0,300,state.json: epoch
+authors_code,half_test_rows_in_training_seed0_verification,"Half of the test rows in training, verification rerun",0,300,state.json: epoch
+pytorch_port,corrected_protocol,Protocol with a validation split of real rows,0,500,epochs_run
+pytorch_port,corrected_protocol,Protocol with a validation split of real rows,1,500,epochs_run
+pytorch_port,corrected_protocol,Protocol with a validation split of real rows,2,500,epochs_run
+pytorch_port,corrected_protocol_extended,"Protocol with a validation split of real rows, extended (stopped)",0,3250,epoch_saved + 1
+pytorch_port,published_protocol,"Published protocol: imputation, SVM-SMOTE, RENN",0,500,epochs_run
+pytorch_port,published_protocol,"Published protocol: imputation, SVM-SMOTE, RENN",1,500,epochs_run
+pytorch_port,published_protocol_without_renn,Published protocol without RENN,0,500,epochs_run
+pytorch_port,published_protocol_without_renn,Published protocol without RENN,1,500,epochs_run
+pytorch_port,published_protocol_without_svm_smote,Published protocol without SVM-SMOTE,0,500,epochs_run
+pytorch_port,published_protocol_without_svm_smote,Published protocol without SVM-SMOTE,1,500,epochs_run
+pytorch_port,published_protocol_without_resampling,Published protocol without resampling,0,500,epochs_run
+pytorch_port,published_protocol_without_resampling,Published protocol without resampling,1,500,epochs_run

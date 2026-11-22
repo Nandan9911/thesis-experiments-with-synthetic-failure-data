@@ -1,0 +1,5 @@
+configuration,label,oof_cost,oof_fn,oof_fp,oof_cost_scaled_to_test_set_size,oof_threshold,fold_costs,fp_at_exactly_10_fn,fp_at_exactly_20_fn,fp_at_exactly_30_fn,fp_at_exactly_40_fn,fp_at_exactly_60_fn,fit_seconds
+lightgbm_fixed_settings,"LightGBM, fixed settings (600 trees)",34100,30,1910,9093.333333333334,0.0018307080849870828,"[7530, 7260, 5790, 7040, 6480]",14700,3940,1910,1530,,731.5731346607208
+lightgbm_scale_pos_weight_30,"LightGBM, fixed settings, failure weight 30",34550,35,1705,9213.333333333334,0.006145549113925819,"[7580, 7820, 5470, 7510, 6170]",17130,3700,2120,1530,,270.057329416275
+xgboost_fixed_settings,"XGBoost, fixed settings (600 trees)",33620,32,1762,8965.333333333334,0.004572510583559051,"[7260, 6950, 5360, 6750, 7300]",14010,3160,1940,1590,1010,426.678430557251
+histogram_gradient_boosting_fixed_settings,"HistGradientBoosting, fixed settings (at most 600 iterations)",37070,37,1857,9885.333333333334,0.007096250023557842,"[8690, 6540, 5930, 7930, 7980]",15180,3370,2390,1740,,25.031834840774536

@@ -1,0 +1,87 @@
+{
+ "setting": {
+  "seed": 11,
+  "fold": 0,
+  "hide": 0.5,
+  "k": 5,
+  "override": {
+   "forest_flow": {
+    "gpu_hist": true
+   },
+   "unmasking_trees": {
+    "xgboost_kwargs": {
+     "device": "cuda"
+    }
+   }
+  }
+ },
+ "real held-out failures (reference)": {
+  "dcr": 1.0266101507727081,
+  "frac_closer": 0.03,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 0.7828839719295502,
+  "mia_auc": 0.46172499999999994,
+  "near_copy_frac": 0.09,
+  "dcr_fit_vs_heldout": 0.7360164571406153
+ },
+ "median": {
+  "dcr": 1.178715967184713,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 0.8988785445690155,
+  "mia_auc": 0.40216874999999996,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 1.0170440952038518,
+  "seconds": 0.11256814002990723
+ },
+ "k_nearest_neighbours": {
+  "dcr": 1.0948959208651385,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 0.8349581062793732,
+  "mia_auc": 0.36760625,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 1.0592800786247594,
+  "seconds": 0.4298257827758789
+ },
+ "chained_equations": {
+  "dcr": 2.023071309337331,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 1.5427765846252441,
+  "mia_auc": 0.443015625,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 1.0330099480427863,
+  "seconds": 378.35126280784607
+ },
+ "unmasking_trees": {
+  "dcr": 1.214094533294451,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 0.9258579313755035,
+  "mia_auc": 0.39785625,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 1.002020190747627,
+  "seconds": 2557.167578935623
+ },
+ "forest_flow": {
+  "dcr": 4.962519380914369,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 3.7843741178512573,
+  "mia_auc": 0.49363124999999997,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 0.9860730242993134,
+  "seconds": 1796.3892958164215
+ },
+ "tabpfn": {
+  "dcr": 1.133692687420877,
+  "frac_closer": 0.0,
+  "median_nn_real": 0.7625913023948669,
+  "median_nn_syn_to_real": 0.8645441830158234,
+  "mia_auc": 0.34168437500000004,
+  "near_copy_frac": 0.0,
+  "dcr_fit_vs_heldout": 1.1117404314877288,
+  "seconds": 1300.4640226364136
+ }
+}
