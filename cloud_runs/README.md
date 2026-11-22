@@ -133,9 +133,9 @@ in `results/`. To repeat such a run, remove the field from the job (in a copy of
    GitHub*). For another session, change `SESSION` in its first code cell, or write the notebooks of all sessions with
    `python cloud_runs/colab/build_colab_notebooks.py --output-dir <folder>`.
 3. Choose the session's runtime: *Runtime → Change runtime type*, then A100 GPU, L4 GPU or CPU, with high RAM.
-4. In the first code cell, replace the placeholder in `REPOSITORY_URL` by the address of this repository on GitHub. If
-   the runtime cannot clone it (for example a private repository without a token in the address), leave the
-   placeholder and copy the repository into the store as `repository/`; the notebook then copies it from there.
+4. The first code cell clones this repository from GitHub (`REPOSITORY_URL`). To run a modified copy instead, set
+   `REPOSITORY_URL = ""` and copy the repository into the store as `repository/`; the notebook then copies it from
+   there.
 5. *Runtime → Run all*, and allow the access to Google Drive when Colab asks for it. Nothing else needs attention
    while the session runs.
 

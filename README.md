@@ -24,6 +24,7 @@ again. It is written for a reader who knows machine learning but has not seen th
 9. [Old names in stored result files](#9-old-names-in-stored-result-files)
 10. [Reproducibility notes](#10-reproducibility-notes)
 11. [References](#11-references)
+12. [Licence](#12-licence)
 
 ## 1. The experiments in brief
 
@@ -131,6 +132,7 @@ Each module explains its own methods in more detail at the top of the file.
 
 ```
 README.md                         this guide
+LICENSE                           the MIT licence of the code
 requirements.txt                  exact package versions (everything)
 requirements-core.txt             the minimal set for the baseline, the cGAN reproduction and the analysis
 data/README.md                    how to download the UCI files (the data are not included)
@@ -165,6 +167,17 @@ runs you still want to continue: the PyTorch port and the retraining with the re
 are run with `--checkpoint-dir cache/...`, as in the commands of step 4 and of `authors_code/README.md`.
 
 ## 4. Setting up
+
+### Getting the code
+
+```bash
+git clone https://github.com/Nandan9911/thesis-experiments-with-synthetic-failure-data.git
+cd thesis-experiments-with-synthetic-failure-data
+```
+
+On Windows, clone with `git clone -c core.longpaths=true <address>` or into a short folder such as `C:\src`: a few
+result files have paths of up to 155 characters inside the repository, and Windows limits a full path to 260
+characters unless long paths are enabled.
 
 ### Python and packages
 
@@ -639,3 +652,9 @@ records and logs are kept exactly as they were written. Those names are listed h
 
 The generators, foundation models and completion engines of RQ2 and RQ3 are cited in the modules that use them and in
 the thesis.
+
+## 12. Licence
+
+The code in this repository is released under the MIT License (see [`LICENSE`](LICENSE)). The data files are not
+included; they are distributed separately under their own licence (see [`data/README.md`](data/README.md)). The
+external repositories that `third_party/fetch_third_party_code.sh` fetches keep their own licences.
